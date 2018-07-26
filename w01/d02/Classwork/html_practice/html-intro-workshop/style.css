@@ -1,0 +1,21 @@
+body {
+    font-family: Tahoma;
+}
+
+td {
+    padding: 10px;
+}
+
+.albumart {
+    width:150px;
+    border-width:2px;
+    border-color:black;
+}
+
+.bighugs {
+    float:left;
+}
+
+.thealbum {
+    float: right;
+}

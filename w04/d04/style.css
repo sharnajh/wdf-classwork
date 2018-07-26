@@ -1,0 +1,20 @@
+body {
+  font-family: arial; }
+  body #logo {
+    width: 300px; }
+  body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap; }
+    body .container .child {
+      width: 400px;
+      height: 400px;
+      background-color: red;
+      margin: 10px; }
+      body .container .child .product-img {
+        width: 300px;
+        max-height: 300px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+$darkgrey: #383838;
+
+nav {
+    width:100%;
+        ul { 
+            padding:15px;
+            background-color: $darkgrey;
+            margin:0;
+                li {
+                padding:15px;
+                color:darkgray;
+                display:inline; 
+                font-family:Arial, Helvetica, sans-serif; 
+                }
+
+                    #selected, li:hover {
+                        background-color:black;
+                        color:white;
+                    }
+        }
+}

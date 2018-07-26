@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin:0 auto;
+    width:70%;
+}
+
+#main-header {
+    display:flex;
+    margin-bottom:1.5em;
+}
+
+#main-navigation{
+    flex-grow:1;
+}
+
+#main-navigation > ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    height:50px;
+    align-items:flex-end;
+}
+
+#main-navigation > ul > li {
+    font-family:monospace;
+    font-size: 30px;
+    color:gray;
+    text-transform: uppercase;
+}
+
+#anvil {
+    text-align: center;
+}
+
+#container {
+    display:flex;
+}
+
+.article {
+    padding:20px;
+}

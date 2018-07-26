@@ -1,0 +1,33 @@
+.wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.oompa{
+    width: 200px;
+    height: 200px;
+    background-image: url('https://vignette4.wikia.nocookie.net/fnaf-oc-and-characters-wikia/images/6/63/Oompa_Loompa.png/revision/latest?cb=20150517051004');
+    position: relative;
+    animation: mymove 2s ease-in-out 0s infinite alternate;
+}
+
+#two, #four {
+    animation-delay: -2s;
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {
+      top: 0px;
+    }
+    
+    to {
+      top: 200px;
+    }
+  }
+
+  /* The mistake I made here was that I had used margin-top instead of top for my animation function which is what caused the animation
+  to not execute as I intended. To transition between positions I should use top, bottom, left, or right, NOT margins */
+

@@ -1,0 +1,23 @@
+body {
+    font-family:arial;
+        #logo {
+            width:300px;
+        }
+        .container {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            align-content:flex-start;
+            flex-wrap:wrap;
+            .child {
+                width:400px;
+                height:400px;
+                background-color:red;
+                margin:10px;
+                    .product-img {
+                        width:300px;
+                        max-height:300px;
+                    }
+            }
+}
+}
